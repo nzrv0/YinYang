@@ -37,7 +37,7 @@ function Blog() {
                         ? data.map((item) => (
                               <BlogsCard
                                   Date={item.Date}
-                                  MainImage={`/${item.MainImage}-(\w+)/i.jpg`}
+                                  MainImage={item.MainImage}
                                   Name={item.Name}
                                   Title={item.Title}
                                   Content={item.Content}

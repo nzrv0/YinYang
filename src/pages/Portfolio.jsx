@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 // components and Works Data
 import { PageTitle, WorksCard } from "../components";
-import { Works } from "../utils/constants";
+// import { Works } from "../utils/constants";
 
 import Work1 from "../assets/Works/Work1.jpg";
 import Work2 from "../assets/Works/Work2.jpg";
@@ -14,6 +14,63 @@ import Work5 from "../assets/Works/Work5.jpg";
 import Work6 from "../assets/Works/Work6.jpg";
 
 const WorksList = ["All", "Web", "Design"];
+
+const Works = [
+    {
+        Category: "Design",
+        MainImage: Work1,
+        SubImages: [Work2, Work3, Work4],
+        Title: "Typing Project",
+        Work: "Web Development",
+        Year: "2023",
+        Link: "#",
+    },
+    {
+        Category: "Design",
+        MainImage: Work1,
+        SubImages: [Work2, Work3, Work4],
+        Title: "Photography Project",
+        Work: "Photography",
+        Year: "2022",
+        Link: "#",
+    },
+    {
+        Category: "Design",
+        MainImage: Work1,
+        SubImages: [Work2, Work3, Work4],
+        Title: "Design Project",
+        Work: "Figma Design",
+        Year: "2021",
+        Link: "#",
+    },
+    {
+        Category: "Web",
+        MainImage: Work1,
+        SubImages: [Work2, Work3, Work4],
+        Title: "Typing Project",
+        Work: "Web Development",
+        Year: "2023",
+        Link: "#",
+    },
+    {
+        Category: "Web",
+        MainImage: Work1,
+        SubImages: [Work2, Work3, Work4],
+        Title: "Photography Project",
+        Work: "Photography",
+        Year: "2022",
+        Link: "#",
+    },
+    {
+        Category: "Design",
+        MainImage: Work1,
+        SubImages: [Work2, Work3, Work4],
+        Title: "Design Project",
+        Work: "Figma Design",
+        Year: "2021",
+        Link: "#",
+    },
+];
 
 function Portfolio() {
     const [activeList, setActiveList] = useState("All");
@@ -54,7 +111,7 @@ function Portfolio() {
                             ? data.map((item) => (
                                   <WorksCard
                                       Category={item.Category}
-                                      MainImage={item.MainImage}
+                                      MainImage={`..${item.MainImage}`}
                                       SubImages={item.SubImages}
                                       Title={item.Title}
                                       Work={item.Work}
