@@ -1,7 +1,7 @@
 export const Works = [
     {
         Category: "Design",
-        MainImage: "./src/assets/WorkImages/Work1.jpg",
+        MainImage: "../../assets/WorkImages/Work1.jpg",
         SubImages: [
             "../src/assets/WorkImages/Work4.jpg",
             "../../src/assets/WorkImages/Work5.jpg",
@@ -14,7 +14,7 @@ export const Works = [
     },
     {
         Category: "Design",
-        MainImage: "../assets/WorkImages/Work2.jpg",
+        MainImage: "../../assets/WorkImages/Work2.JPG",
         SubImages: [
             "./assets/WorkImages/Work6.jpg",
             "../../../src/assets/WorkImages/Work7.jpg",
@@ -40,7 +40,7 @@ export const Works = [
     },
     {
         Category: "Web",
-        MainImage: "/src/assets/WorkImages/Work4.jpg",
+        MainImage: "/assets/WorkImages/Work4.jpg",
         SubImages: [
             "/src/assets/WorkImages/Work4.jpg",
             "/src/assets/WorkImages/Work2.jpg",
