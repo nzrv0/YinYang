@@ -27,7 +27,7 @@ const Works = [
     },
     {
         Category: "Design",
-        MainImage: Work1,
+        MainImage: Work2,
         SubImages: [Work2, Work3, Work4],
         Title: "Photography Project",
         Work: "Photography",
@@ -36,8 +36,8 @@ const Works = [
     },
     {
         Category: "Design",
-        MainImage: Work1,
-        SubImages: [Work2, Work3, Work4],
+        MainImage: Work3,
+        SubImages: [Work2, Work5, Work6],
         Title: "Design Project",
         Work: "Figma Design",
         Year: "2021",
@@ -45,7 +45,7 @@ const Works = [
     },
     {
         Category: "Web",
-        MainImage: Work1,
+        MainImage: Work4,
         SubImages: [Work2, Work3, Work4],
         Title: "Typing Project",
         Work: "Web Development",
@@ -54,7 +54,7 @@ const Works = [
     },
     {
         Category: "Web",
-        MainImage: Work1,
+        MainImage: Work5,
         SubImages: [Work2, Work3, Work4],
         Title: "Photography Project",
         Work: "Photography",
@@ -63,7 +63,7 @@ const Works = [
     },
     {
         Category: "Design",
-        MainImage: Work1,
+        MainImage: Work6,
         SubImages: [Work2, Work3, Work4],
         Title: "Design Project",
         Work: "Figma Design",
@@ -111,7 +111,7 @@ function Portfolio() {
                             ? data.map((item) => (
                                   <WorksCard
                                       Category={item.Category}
-                                      MainImage={`..${item.MainImage}`}
+                                      MainImage={item.MainImage}
                                       SubImages={item.SubImages}
                                       Title={item.Title}
                                       Work={item.Work}
