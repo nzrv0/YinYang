@@ -34,7 +34,7 @@ function WorksCard({ MainImage, SubImages, Title, Work, Year, Link }) {
                     </button>
                 </div>
                 <img
-                    src="../../assets/main.jpg"
+                    src={MainImage}
                     alt="main"
                     className="object-cover w-full h-full rounded-xl"
                 />
@@ -52,4 +52,5 @@ function WorksCard({ MainImage, SubImages, Title, Work, Year, Link }) {
         </>
     );
 }
+
 export default WorksCard;

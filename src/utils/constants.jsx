@@ -1,11 +1,11 @@
 export const Works = [
     {
         Category: "Design",
-        MainImage: "../../assets/WorkImages/Work1.jpg",
+        MainImage: "/src/assets/Works/Work4.jpg",
         SubImages: [
-            "../src/assets/WorkImages/Work4.jpg",
-            "../../src/assets/WorkImages/Work5.jpg",
-            "../../assets/WorkImages/Work6.jpg",
+            "/src/assets/Works/Work4.jpg",
+            "/src/assets/Works/Work5.jpg",
+            "/src/assets/Works/Work6.jpg",
         ],
         Title: "Typing Project",
         Work: "Web Development",
@@ -14,11 +14,11 @@ export const Works = [
     },
     {
         Category: "Design",
-        MainImage: "../../assets/WorkImages/Work2.JPG",
+        MainImage: "/src/assets/Works/Work2.jpg",
         SubImages: [
-            "./assets/WorkImages/Work6.jpg",
-            "../../../src/assets/WorkImages/Work7.jpg",
-            "../../../assets/WorkImages/Work4.jpg",
+            "/src/assets/Works/Work6.jpg",
+            "/src/assets/Works/Work7.jpg",
+            "/src/assets/Works/Work4.jpg",
         ],
         Title: "Photography Project",
         Work: "Photography",
@@ -27,11 +27,11 @@ export const Works = [
     },
     {
         Category: "Design",
-        MainImage: "/src/assets/WorkImages/Work3.jpg",
+        MainImage: "/src/assets/Works/Work3.jpg",
         SubImages: [
-            "/src/assets/WorkImages/Work3.jpg",
-            "/src/assets/WorkImages/Work2.jpg",
-            "/src/assets/WorkImages/Work3.jpg",
+            "/src/assets/Works/Work3.jpg",
+            "/src/assets/Works/Work2.jpg",
+            "/src/assets/Works/Work3.jpg",
         ],
         Title: "Design Project",
         Work: "Figma Design",
@@ -40,11 +40,11 @@ export const Works = [
     },
     {
         Category: "Web",
-        MainImage: "/assets/WorkImages/Work4.jpg",
+        MainImage: "/src/assets/Works/Work4.jpg",
         SubImages: [
-            "/src/assets/WorkImages/Work4.jpg",
-            "/src/assets/WorkImages/Work2.jpg",
-            "/src/assets/WorkImages/Work3.jpg",
+            "/src/assets/Works/Work4.jpg",
+            "/src/assets/Works/Work2.jpg",
+            "/src/assets/Works/Work3.jpg",
         ],
         Title: "Typing Project",
         Work: "Web Development",
@@ -53,11 +53,11 @@ export const Works = [
     },
     {
         Category: "Web",
-        MainImage: "/src/assets/WorkImages/Work5.jpg",
+        MainImage: "/src/assets/Works/Work5.jpg",
         SubImages: [
-            "/src/assets/WorkImages/Work5.jpg",
-            "/src/assets/WorkImages/Work2.jpg",
-            "/src/assets/WorkImages/Work3.jpg",
+            "/src/assets/Works/Work5.jpg",
+            "/src/assets/Works/Work2.jpg",
+            "/src/assets/Works/Work3.jpg",
         ],
         Title: "Photography Project",
         Work: "Photography",
@@ -66,11 +66,11 @@ export const Works = [
     },
     {
         Category: "Design",
-        MainImage: "/src/assets/WorkImages/Work6.jpg",
+        MainImage: "/src/assets/Works/Work6.jpg",
         SubImages: [
-            "/src/assets/WorkImages/Work6.jpg",
-            "/src/assets/WorkImages/Work2.jpg",
-            "/src/assets/WorkImages/Work3.jpg",
+            "/src/assets/Works/Work6.jpg",
+            "/src/assets/Works/Work2.jpg",
+            "/src/assets/Works/Work3.jpg",
         ],
         Title: "Design Project",
         Work: "Figma Design",

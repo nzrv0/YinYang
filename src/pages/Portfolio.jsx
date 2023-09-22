@@ -6,6 +6,13 @@ import { motion } from "framer-motion";
 import { PageTitle, WorksCard } from "../components";
 import { Works } from "../utils/constants";
 
+import Work1 from "../assets/Works/Work1.jpg";
+import Work2 from "../assets/Works/Work2.jpg";
+import Work3 from "../assets/Works/Work3.jpg";
+import Work4 from "../assets/Works/Work4.jpg";
+import Work5 from "../assets/Works/Work5.jpg";
+import Work6 from "../assets/Works/Work6.jpg";
+
 const WorksList = ["All", "Web", "Design"];
 
 function Portfolio() {
