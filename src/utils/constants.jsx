@@ -1,4 +1,4 @@
-export const WorkImages = [
+export const Works = [
     {
         Category: "Design",
         MainImage: "./src/assets/WorkImages/Work1.jpg",
