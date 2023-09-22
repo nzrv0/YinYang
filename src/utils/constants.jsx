@@ -3,7 +3,7 @@ export const Works = [
         Category: "Design",
         MainImage: "/src/assets/Works/Work1.jpg",
         SubImages: [
-            "/src/assets/Works/Work4.jpg",
+            "../../assets/Works/Work4.jpg",
             "/src/assets/Works/Work5.jpg",
             "/src/assets/Works/Work6.jpg",
         ],

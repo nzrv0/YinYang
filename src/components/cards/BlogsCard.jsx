@@ -1,6 +1,5 @@
 import { React, useState } from "react";
 import BlogDetail from "../ui/BlogDetail";
-
 function BlogsCard({ MainImage, Date, Name, Title, Content, Quotes }) {
     const [Blog, setBlog] = useState({
         MainImage: "",
