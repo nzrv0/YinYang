@@ -20,12 +20,7 @@ function InputForm() {
         const form = document.querySelector("form");
 
         await emailjs
-            .sendForm(
-                "service_uj81j7o",
-                "template_029zrtn",
-                form,
-                "0ENXAu8JNCQWxor-r",
-            )
+            .sendForm("service-id", "template_id", form, "public-key")
 
             .then(
                 (result) => {

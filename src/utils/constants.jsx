@@ -14,7 +14,7 @@ export const Works = [
     },
     {
         Category: "Design",
-        MainImage: "/src/assets/Works/Work2.jpg",
+        MainImage: "./src/assets/Works/Work2.jpg",
         SubImages: [
             "/src/assets/Works/Work6.jpg",
             "/src/assets/Works/Work7.jpg",
