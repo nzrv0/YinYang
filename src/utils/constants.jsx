@@ -1,11 +1,11 @@
 export const WorkImages = [
     {
         Category: "Design",
-        MainImage: "/src/assets/WorkImages/Work1.jpg",
+        MainImage: "./src/assets/WorkImages/Work1.jpg",
         SubImages: [
-            "/src/assets/WorkImages/Work4.jpg",
-            "/src/assets/WorkImages/Work5.jpg",
-            "/src/assets/WorkImages/Work6.jpg",
+            "../src/assets/WorkImages/Work4.jpg",
+            "../../src/assets/WorkImages/Work5.jpg",
+            "../../assets/WorkImages/Work6.jpg",
         ],
         Title: "Typing Project",
         Work: "Web Development",
@@ -14,11 +14,11 @@ export const WorkImages = [
     },
     {
         Category: "Design",
-        MainImage: "./src/assets/WorkImages/Work2.jpg",
+        MainImage: "../assets/WorkImages/Work2.jpg",
         SubImages: [
-            "/src/assets/WorkImages/Work6.jpg",
-            "/src/assets/WorkImages/Work7.jpg",
-            "/src/assets/WorkImages/Work4.jpg",
+            "./assets/WorkImages/Work6.jpg",
+            "../../../src/assets/WorkImages/Work7.jpg",
+            "../../../assets/WorkImages/Work4.jpg",
         ],
         Title: "Photography Project",
         Work: "Photography",
