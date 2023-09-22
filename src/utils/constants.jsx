@@ -1,11 +1,11 @@
 export const Works = [
     {
         Category: "Design",
-        MainImage: "/src/assets/Works/Work1.jpg",
+        MainImage: "/assets/Works/Work1.jpg",
         SubImages: [
-            "../../assets/Works/Work4.jpg",
-            "/src/assets/Works/Work5.jpg",
-            "/src/assets/Works/Work6.jpg",
+            "/assets/Works/Work4.jpg",
+            "/assets/Works/Work5.jpg",
+            "/assets/Works/Work6.jpg",
         ],
         Title: "Typing Project",
         Work: "Web Development",
@@ -14,11 +14,11 @@ export const Works = [
     },
     {
         Category: "Design",
-        MainImage: "/src/assets/Works/Work2.jpg",
+        MainImage: "/assets/Works/Work2.jpg",
         SubImages: [
-            "/src/assets/Works/Work6.jpg",
-            "/src/assets/Works/Work7.jpg",
-            "/src/assets/Works/Work4.jpg",
+            "/assets/Works/Work6.jpg",
+            "/assets/Works/Work7.jpg",
+            "/assets/Works/Work4.jpg",
         ],
         Title: "Photography Project",
         Work: "Photography",
@@ -27,11 +27,11 @@ export const Works = [
     },
     {
         Category: "Design",
-        MainImage: "/src/assets/Works/Work3.jpg",
+        MainImage: "/assets/Works/Work3.jpg",
         SubImages: [
-            "/src/assets/Works/Work3.jpg",
-            "/src/assets/Works/Work2.jpg",
-            "/src/assets/Works/Work3.jpg",
+            "/assets/Works/Work3.jpg",
+            "/assets/Works/Work2.jpg",
+            "/assets/Works/Work3.jpg",
         ],
         Title: "Design Project",
         Work: "Figma Design",
@@ -40,11 +40,11 @@ export const Works = [
     },
     {
         Category: "Web",
-        MainImage: "/src/assets/Works/Work4.jpg",
+        MainImage: "/assets/Works/Work4.jpg",
         SubImages: [
-            "/src/assets/Works/Work4.jpg",
-            "/src/assets/Works/Work2.jpg",
-            "/src/assets/Works/Work3.jpg",
+            "/assets/Works/Work4.jpg",
+            "/assets/Works/Work2.jpg",
+            "/assets/Works/Work3.jpg",
         ],
         Title: "Typing Project",
         Work: "Web Development",
@@ -53,11 +53,11 @@ export const Works = [
     },
     {
         Category: "Web",
-        MainImage: "/src/assets/Works/Work5.jpg",
+        MainImage: "/assets/Works/Work5.jpg",
         SubImages: [
-            "/src/assets/Works/Work5.jpg",
-            "/src/assets/Works/Work2.jpg",
-            "/src/assets/Works/Work3.jpg",
+            "/assets/Works/Work5.jpg",
+            "/assets/Works/Work2.jpg",
+            "/assets/Works/Work3.jpg",
         ],
         Title: "Photography Project",
         Work: "Photography",
@@ -66,11 +66,11 @@ export const Works = [
     },
     {
         Category: "Design",
-        MainImage: "/src/assets/Works/Work6.jpg",
+        MainImage: "/assets/Works/Work6.jpg",
         SubImages: [
-            "/src/assets/Works/Work6.jpg",
-            "/src/assets/Works/Work2.jpg",
-            "/src/assets/Works/Work3.jpg",
+            "/assets/Works/Work6.jpg",
+            "/assets/Works/Work2.jpg",
+            "/assets/Works/Work3.jpg",
         ],
         Title: "Design Project",
         Work: "Figma Design",
@@ -81,7 +81,7 @@ export const Works = [
 
 export const Blogs = [
     {
-        MainImage: "/src/assets/Blogs/Blog1.jpg",
+        MainImage: "/assets/Blogs/Blog1.jpg",
         Title: "Top 10 Books You Should Read",
         Name: "James Brown",
         Date: "11 Dec, 23",
@@ -94,7 +94,7 @@ export const Blogs = [
         ],
     },
     {
-        MainImage: "/src/assets/Blogs/Blog2.jpg",
+        MainImage: "/assets/Blogs/Blog2.jpg",
         Title: "Top 10 Books You Should Read",
         Name: "James Brown",
         Date: "11 Dec, 23",
@@ -107,7 +107,7 @@ export const Blogs = [
         ],
     },
     {
-        MainImage: "/src/assets/Blogs/Blog3.jpg",
+        MainImage: "/assets/Blogs/Blog3.jpg",
         Title: "Top 10 Books You Should Read",
         Name: "James Brown",
         Date: "11 Dec, 23",
@@ -120,7 +120,7 @@ export const Blogs = [
         ],
     },
     {
-        MainImage: "/src/assets/Blogs/Blog4.jpg",
+        MainImage: "/assets/Blogs/Blog4.jpg",
         Title: "Top 10 Books You Should Read",
         Name: "James Brown",
         Date: "11 Dec, 23",
@@ -133,7 +133,7 @@ export const Blogs = [
         ],
     },
     {
-        MainImage: "/src/assets/Blogs/Blog5.jpg",
+        MainImage: "/assets/Blogs/Blog5.jpg",
         Title: "Top 10 Books You Should Read",
         Name: "James Brown",
         Date: "11 Dec, 23",
@@ -146,7 +146,7 @@ export const Blogs = [
         ],
     },
     {
-        MainImage: "/src/assets/Blogs/Blog6.jpg",
+        MainImage: "/assets/Blogs/Blog6.jpg",
         Title: "Top 10 Books You Should Read",
         Name: "James Brown",
         Date: "11 Dec, 23",
