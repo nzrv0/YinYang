@@ -8,7 +8,7 @@ function SectionTitle({ First, Second, Line }) {
             )}
             <div className="tracking-[1.35px] sm:text-5xl text-4xl font-medium text-black dark:text-white dark:lg:selection:text-white35">
                 {First}
-                <span className="tracking-[1.35px] sm:text-5xl text-4xl font-medium sm:stroke2 sm:text-transparent text-dark35 dark:text-white35 dark:sm:stroke2white sm:pl-4 pl-2">
+                <span className="tracking-[1.35px] sm:text-5xl text-4xl font-medium sm:stroke2 sm:text-transparent text-dark35 dark:text-white35 dark:sm:text-transparent dark:sm:stroke2white sm:pl-4 pl-2 ">
                     {Second}
                 </span>
             </div>

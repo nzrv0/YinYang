@@ -1,6 +1,7 @@
 import React from "react";
 import { BiSolidQuoteLeft } from "react-icons/bi";
 import { SlClose } from "react-icons/sl";
+
 function BlogDetail({
     setBlog,
     MainImage,
