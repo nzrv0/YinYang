@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import InputForm from "../components/forms/InputForm";
 import ContactDetail from "../components/forms/ContactDetail";
 import PageTitle from "../components/shared/PageTitle";
-import SocialIcons from "../components/shared/SocialIcons";
+import SocailInfromations from "../components/shared/SocailInfromations";
 
 function Contact() {
     return (
@@ -19,7 +19,7 @@ function Contact() {
                     <ContactDetail />
                     <hr className="w-full h-[0.5px] bg-dark35" />
                     <div className="flex flex-row gap-3">
-                        <SocialIcons Color="black" />
+                        <SocailInfromations Color="black" />
                     </div>
                 </div>
                 <InputForm />

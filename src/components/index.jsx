@@ -12,7 +12,7 @@ export { default as InputForm } from "./forms/InputForm";
 // Exporting Shared Components
 export { default as PageTitle } from "./shared/PageTitle";
 export { default as ScrollButton } from "./shared/ScrollButton";
-export { default as SocialIcons } from "./shared/SocialIcons";
+export { default as SocailInfromations } from "./shared/SocailInfromations";
 
 // Exporting Ui Components
 export { default as AboutMe } from "./ui/AboutMe";

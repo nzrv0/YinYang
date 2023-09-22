@@ -10,46 +10,53 @@ import "swiper/css/pagination";
 
 // Import Icon and Image
 import { BiSolidQuoteRight } from "react-icons/bi";
-import User from "../../assets/user.jpg";
+
+// import User Images
+import User1 from "../../assets/Users/User1.jpg";
+import User2 from "../../assets/Users/User2.jpg";
+import User3 from "../../assets/Users/User3.jpg";
+import User4 from "../../assets/Users/User4.jpg";
+import User5 from "../../assets/Users/User5.jpg";
+import User6 from "../../assets/Users/User6.jpg";
 
 const Testimonalias = [
     {
-        Image: User,
+        Image: User1,
         Name: "Tommy Shelby",
         Who: "Envato Customre",
         Paragraph:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
-        Image: User,
+        Image: User2,
         Name: "Tommy Shelby",
         Who: "Envato Customre",
         Paragraph:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
-        Image: User,
+        Image: User3,
         Name: "Tommy Shelby",
         Who: "Envato Customre",
         Paragraph:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
-        Image: User,
+        Image: User4,
         Name: "Tommy Shelby",
         Who: "Envato Customre",
         Paragraph:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
-        Image: User,
+        Image: User5,
         Name: "Tommy Shelby",
         Who: "Envato Customre",
         Paragraph:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
-        Image: User,
+        Image: User6,
         Name: "Tommy Shelby",
         Who: "Envato Customre",
         Paragraph:

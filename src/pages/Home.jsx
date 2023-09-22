@@ -4,7 +4,7 @@ import { easeInOut, motion } from "framer-motion";
 
 // Components and Images
 import MainImage from "../assets/main.jpg";
-import { Button, SocialIcons } from "../components";
+import { Button, SocailInfromations } from "../components";
 
 const WhoIam = {
     Name: "Isabella",
@@ -30,7 +30,7 @@ function Home() {
                     className="object-cover w-full h-full lg:w-[50vw] lg:h-screen lg:absolute bottom-0 left-0 rounded-full lg:rounded-none "
                 />
                 <div className="lg:flex hidden items-center gap-3 absolute bottom-4 left-4 ">
-                    <SocialIcons Color="white" />
+                    <SocailInfromations Color="white" />
                 </div>
             </div>
             {/* Second Section of Home Page */}

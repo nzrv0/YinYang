@@ -2,7 +2,7 @@ import React from "react";
 import { AiFillInstagram, AiOutlineTwitter } from "react-icons/ai";
 import { BiLogoLinkedin } from "react-icons/bi";
 
-function SocialIcons({ Color }) {
+function SocailInfromations({ Color }) {
     const SocialLinks = [
         {
             Icons: (
@@ -50,4 +50,4 @@ function SocialIcons({ Color }) {
     );
 }
 
-export default SocialIcons;
+export default SocailInfromations;

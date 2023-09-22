@@ -81,7 +81,7 @@ export const Works = [
 
 export const Blogs = [
     {
-        MainImage: "/src/assets/Works/Work1.jpg",
+        MainImage: "/src/assets/Blogs/Blog1.jpg",
         Title: "Top 10 Books You Should Read",
         Name: "James Brown",
         Date: "11 Dec, 23",
@@ -94,7 +94,7 @@ export const Blogs = [
         ],
     },
     {
-        MainImage: "/src/assets/Works/Work1.jpg",
+        MainImage: "/src/assets/Blogs/Blog2.jpg",
         Title: "Top 10 Books You Should Read",
         Name: "James Brown",
         Date: "11 Dec, 23",
@@ -107,7 +107,7 @@ export const Blogs = [
         ],
     },
     {
-        MainImage: "/src/assets/Works/Work1.jpg",
+        MainImage: "/src/assets/Blogs/Blog3.jpg",
         Title: "Top 10 Books You Should Read",
         Name: "James Brown",
         Date: "11 Dec, 23",
@@ -120,7 +120,7 @@ export const Blogs = [
         ],
     },
     {
-        MainImage: "/src/assets/Works/Work1.jpg",
+        MainImage: "/src/assets/Blogs/Blog4.jpg",
         Title: "Top 10 Books You Should Read",
         Name: "James Brown",
         Date: "11 Dec, 23",
@@ -133,7 +133,7 @@ export const Blogs = [
         ],
     },
     {
-        MainImage: "/src/assets/Works/Work1.jpg",
+        MainImage: "/src/assets/Blogs/Blog5.jpg",
         Title: "Top 10 Books You Should Read",
         Name: "James Brown",
         Date: "11 Dec, 23",
@@ -146,7 +146,7 @@ export const Blogs = [
         ],
     },
     {
-        MainImage: "/src/assets/Works/Work1.jpg",
+        MainImage: "/src/assets/Blogs/Blog6.jpg",
         Title: "Top 10 Books You Should Read",
         Name: "James Brown",
         Date: "11 Dec, 23",
